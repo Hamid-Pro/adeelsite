@@ -3,104 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adeel Bin Hussain - My Personal Website</title>
-    <style>
-        /* Basic inline CSS for demonstration.
-           It's highly recommended to use an external CSS file for larger projects. */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            border-bottom: 3px solid #77aaff;
-        }
-        nav ul {
-            padding: 0;
-            list-style: none;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px 0;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Adeel Bin Hussain | Innovator & Creator</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to Adeel Bin Hussain's Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title">Adeel Bin Hussain</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main class="container">
-        <section id="home">
-            <h2>Hello There!</h2>
-            <p>This is the landing page of my personal website. I'm excited to share my work and interests with you.</p>
-            <p>Feel free to explore the different sections.</p>
-        </section>
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <p class="hero-intro">Hello, I'm</p>
+            <h2 class="hero-name">Adeel Bin Hussain</h2>
+            <p class="hero-tagline">A Creative Technologist & Digital Architect from Multan, Pakistan.</p>
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+    </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am Adeel Bin Hussain, a passionate individual (you can fill in your profession/interests here, e.g., "a software developer," "a graphic designer," "a student interested in technology").</p>
-            <p>I enjoy learning new things and building interesting projects. More details about my journey will be added soon!</p>
-        </section>
-
-        <section id="portfolio">
-            <h2>My Portfolio</h2>
-            <p>Here you will find examples of my work. Currently, this section is under construction.</p>
-            <p>Stay tuned for exciting projects!</p>
-            <div>
-                <h3>Project Title 1</h3>
-                <p>A brief description of your project. What it does, technologies used, etc.</p>
-                <a href="#" target="_blank">View Project</a> | <a href="#" target="_blank">GitHub Repo</a>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <img src="images/adeel_profile.jpg" alt="Adeel Bin Hussain Profile Picture" class="profile-pic">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hailing from the vibrant city of Multan, Pakistan, I am Adeel Bin Hussain—a passionate and versatile technologist. My journey in the digital realm began with an insatiable curiosity for how things work and a drive to build innovative solutions. I specialize in crafting seamless web experiences, from elegant front-end interfaces to robust back-end systems.</p>
+                    <p>Beyond the code, I am a problem-solver who thrives on challenges and continuous learning. My approach blends modern design principles with efficient development practices, ensuring every project is not just functional, but also intuitive and visually appealing. Whether it's developing interactive websites, optimizing digital workflows, or exploring new tech frontiers, I am committed to delivering excellence.</p>
+                    <p>I believe in the power of technology to transform ideas into reality and am always looking for opportunities to collaborate on impactful projects. Let's create something remarkable together!</p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <p>I'd love to hear from you!</p>
-            <p>You can reach me via:</p>
-            <ul>
-                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-                <li>GitHub: <a href="https://github.com/hamid-pro" target="_blank">hamid-pro</a></li>
-                </ul>
-        </section>
-    </main>
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML5, CSS3 (Sass, Less), JavaScript (ES6+), React, Vue.js, Node.js, Express.js, Python (Django, Flask), PHP (Laravel)</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Wireframing, Prototyping, User Research, Figma, Adobe XD, Responsive Design Principles</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Database Management</h3>
+                    <p>SQL (MySQL, PostgreSQL), NoSQL (MongoDB), Database Design & Optimization</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Git/GitHub, Netlify, Vercel, Basic AWS/Azure understanding, CI/CD Concepts</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Adeel Bin Hussain. All rights reserved.</p>
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="Project 1 Thumbnail">
+                    <h3>Project Name One</h3>
+                    <p>A description of Project One, highlighting its key features and technologies used (e.g., E-commerce platform built with React and Node.js).</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-small">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/hamid-pro/project-one" target="_blank" class="btn-small">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="Project 2 Thumbnail">
+                    <h3>Project Name Two</h3>
+                    <p>An innovative mobile-first web application for task management using Vue.js and Firebase backend.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-small">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/hamid-pro/project-two" target="_blank" class="btn-small">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project3.jpg" alt="Project 3 Thumbnail">
+                    <h3>Project Name Three</h3>
+                    <p>A data visualization dashboard developed with D3.js and Python for analytics reporting.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn-small">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/hamid-pro/project-three" target="_blank" class="btn-small">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/hamid-pro" target="_blank" class="btn btn-primary btn-centered">See More on GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'm always open to new opportunities, collaborations, and interesting conversations. Feel free to reach out!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@adeelbinhussain.online">hello@adeelbinhussain.online</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Multan, Punjab, Pakistan</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/hamid-pro" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/adeelbinhussain" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/adeelbinhussain" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Adeel Bin Hussain. All rights reserved.</p>
+            <p>Designed and Developed by Adeel Bin Hussain.</p>
+        </div>
     </footer>
 
-    </body>
+    <script src="js/script.js"></script>
+</body>
 </html>
